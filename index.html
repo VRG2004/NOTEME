@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOTEME</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Playwrite+DE+Grund:wght@100..400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <h1>NOTEME</h1>
+    </div>
+    <div class="container">
+        <div class="box-container">
+            <h2>good dad bad dad</h2>
+            <h5>albert</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus officia vel harum delectus
+                quae accusantium, sed molestiae. Dolor temporibus eaque porro non placeat dolores natus, veritatis
+                praesentium voluptatibus maxime.</p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <form action="">
+            <h2>Add Note</h2>
+            <input type="text" placeholder="Title" id="book-title-input">
+            <input type="text" placeholder="Discription" id="book-author-input">
+            <textarea placeholder="Note-Area" name="content" id="book-discription-input"></textarea>
+        <button id="add-book">Add</button>
+        <button id="clearnote">Cancel</button>
+        
+        </form>
+    </div>
+      
+        <button class="btn" onclick="show()">+</button>
+        <script src="script.js"></script>
+</body>
+
+</html>
